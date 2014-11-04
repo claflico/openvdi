@@ -1,0 +1,141 @@
+/* center tables */
+body{
+	text-align:center;
+background-color:#666666;
+}
+
+/* center tables */
+table{
+	margin-left:auto;
+margin-right:auto;
+}
+
+/* background table */
+table.bg{
+	background-color:#EBEBEB;
+border:2px solid #ffffff;
+}
+
+/* colored foreground table */
+table.fg{
+	border:1px solid #000000;
+border-collapse:collapse;
+width:100%;
+background-color:#ffffcc;
+}
+
+/* non-bordered table - center content */
+table.nb{
+	width:100%;
+text-align:center;
+}
+
+/* standard cell - keep alignment to left in case browse forms are very wide */
+td{
+	font-family:verdana,helvetica,arial,sans-serif;
+font-size:10px;
+padding:3px;
+color:#000000;
+vertical-align:top;
+}
+
+/* standard cell - keep alignment to left in case browse forms are very wide */
+td.head{
+	font-weight:bold;
+white-space:nowrap;
+border-bottom 1px solid #000000;
+background-color:#376F6F;
+}
+
+/* title cell - keep alignment to left in case browse forms are very wide */
+td.title{
+	font-weight:bold;
+background-color:#000000;
+width:100%;
+font-size:12px;color:#ffffff;
+white-space:nowrap;
+}
+
+/* field label cell */
+td.label{
+	font-weight:bold;
+text-align:right;
+width:40%;
+white-space:nowrap;
+}
+
+/* Some field content cells */
+td.field{
+	text-align:left;
+white-space:nowrap;
+}
+
+/* link on mouse-over */
+A:hover{
+	COLOR: white;
+BACKGROUND-COLOR: #7f7f7f;
+TEXT-DECORATION: none;
+}
+
+/* bold - used for column headings in browse tables and bold text */
+td.bold{
+	font-weight:bold;
+white-space:nowrap;
+}
+
+/* Some field content cells */
+td.row0{
+	text-align:left; background-color:#FFFFFF; border-bottom:1px solid #000000; vertical-align:middle;
+}
+
+/* Some field content cells */
+td.row1{
+	text-align:left; background-color:#ffffcc; border-bottom:1px solid #000000; vertical-align:middle;
+}
+
+/* errors */
+td.error{
+	color:#FF0000;
+}
+
+/* form elements */
+input{
+	background-color:#EBEBEB;
+}
+
+/* form drop downs */
+select{
+	background-color:#EBEBEB;
+}
+
+/* form test areas */
+textarea{
+	background-color:#EBEBEB;
+}
+
+/* links */
+a{
+	font-family:verdana,helvetica,arial,sans-serif;
+font-size:10px;
+color:#000000;
+font-weight:bold;
+}
+
+/* links in some browse table cells */
+a2{
+	font-family:verdana,helvetica,arial,sans-serif;
+font-size:10px;
+color:#000000;
+font-weight:bold;
+}
+
+/* links in some browse table cells */
+a.cell{
+	font-family:verdana,helvetica,arial,sans-serif;font-size:10px;color:#000000;font-weight:bold
+}
+
+/* links in browse table header cells */
+a.head{
+	font-family:verdana,helvetica,arial,sans-serif;font-size:10px;color:#ffffff;font-weight:bold
+}
+
