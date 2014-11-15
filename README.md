@@ -1,4 +1,4 @@
-openview
+openvdi
 ========
 
 OpenSource alternative to VMWare view intended to be used with either RDP or VNC on virtual machines.
